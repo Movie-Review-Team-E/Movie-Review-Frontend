@@ -65,3 +65,30 @@
 
 ## 🎨 UI 예시
 > [TechBoost-Hackathon-Frontend](https://www.figma.com/design/1NYaEpXZZzB2dbP5a4QbtS/TechBoost-Hackathon-Frontend)<br/>(UI 예시는 참고용으로만 제공되는 것이며, 그대로 따라하기보다는 참고만하여 자유롭게 디자인해 주시기 바랍니다.)
+
+---
+
+<h1 align="center" font-weight="bold">💡 프로젝트 설정 💡</h1>
+<p align="center"> Frontend 프로젝트 설정 메모입니다 </p>
+
+## Prettier
+1. "singleQuote": true,
+    - 문자열에 큰 따옴표(") 대신 작은 따옴표(') 사용
+2. "semi": true,
+    - 모든 명령문 끝에 세미콜론(;) 추가
+3. "useTabs": false,
+    - 들여쓰기에 탭 대신 공백 사용
+4. "tabWidth": 2,
+    - 들여쓰기 2칸 공백 사용
+5. "trailingComma": "all",
+    - 객체나 배열의 마지막 요소 뒤에도 쉼표 추가
+6. "printWidth": 80,
+    - 한 줄의 최대 길이 80자
+7. "bracketSpacing": true,
+    - 객체나 배열의 중괄호({}) 안쪽에 공백을 추가
+8. "arrowParens": "always",
+    - 화살표 함수의 매개변수에 괄호를 항상 추가
+9. "endOfLine": "auto",
+    - 운영체제에 맞는 줄바꿈 방식 채택
+10. "jsxBracketSameLine": true
+    - JSX에서 태그의 닫는 괄호(>)를 마지막 속성과 같은 줄에 표시
